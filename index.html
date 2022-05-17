@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="title">
+      Registration Form
+    </div>
+    <form>
+    <div class="form">
+       <div class="inputfield">
+          <label for="name">First Name:</label>
+          <input type="text" id="name" name="name" class="input" placeholder="Full name" required>
+       </div>  
+       <div class="inputfield">
+        <label for="mail">Email Address:</label>
+        <input type="email" name="mail" id="mail" class="input" placeholder="example@gmail.com" required>
+        </div> 
+       <div class="inputfield">
+          <label for="pass">Password:</label>
+          <input type="password" name="pass" id="pass" class="input" placeholder="enter your password" required>
+       </div>  
+      <div class="inputfield">
+          <label for="dob">Birthday</label>
+          <input type="date" name="dob" id="dob" class="input" required>
+       </div>  
+      <div class="inputfield">
+          <label for="tele">Phone Number:</label>
+          <input type="tel" name="tele" id="tele" class="input" placeholder="Enter your number" required>
+       </div> 
+      <div class="inputfield">
+          <label for="mal">Gender:</label>
+          <input type="radio" class="input-r" id="mal" name="fem">
+          <label for="mal">Male</label>
+          <input type="radio" class="input-r" id="fem" name="fem">
+          <label for="fem">Female</label>
+       </div> 
+      <div class="inputfield">
+          <label>Hobbies:</label>>
+        <input type="checkbox" id="car" name="car" class="input-h"/>
+        <label for="car">Football</label>
+        <input type="checkbox" id="geet" name="geet" class="input-h"/>
+        <label for="geet">Singing</label>
+        <input type="checkbox" id="khel" name="khel" class="input-h"/>
+        <label for="khel">Cricket</label>
+       </div> 
+      <div class="inputfield terms">
+          <label>Tell me about yourself:</label>
+          <textarea name="text" id="about" cols="30" rows="10" minlength="10" maxlength="250" placeholder="Write something about yourself"></textarea>
+         </div>
+         <div class="inputfield">
+            <button>Register</button>
+          </div>
+    </div>
+</div>
+</form>	
+	
+</body>
+</html>
